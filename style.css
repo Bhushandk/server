@@ -1,0 +1,48 @@
+.navbar-brand {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+  }
+  
+  .room-list {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+  
+  .sensor-data {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+  
+  .container-fluid {
+    font-size: 1.2rem;
+  }
+  
+  .gauge-container {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .latest-reading {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .latest-reading table {
+    width: 100%;
+  }
+  
+  .latest-reading th,
+  .latest-reading td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .latest-reading th {
+    background-color: #e9ecef;
+  }
+  
+  
